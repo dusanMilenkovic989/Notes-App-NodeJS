@@ -1,13 +1,10 @@
 {
-  "name": "basics-examples",
+  "name": "notes-app",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "Dusan Milenkovic",
+  "license": "",
   "dependencies": {
     "chalk": "^4.1.1",
     "yargs": "^17.0.1"

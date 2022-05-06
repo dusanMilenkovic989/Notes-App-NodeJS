@@ -27,7 +27,7 @@ const removeNotes = (title) => {
     const note = getNote(title.trim())
 
     if (note) {
-        const noteIndex = notes.findIndex((item) => item.title === note.title)      // small change in type style to make it possible for note to be found in regards to the real note title, and not in regards to the argument typed, so that the argument could be case insensitive
+        const noteIndex = notes.findIndex((item) => item.title === note.title)
         notes.splice(noteIndex, 1)
         saveNotes()
         console.log(chalk.green.inverse(`Note: '${note.title}' has been removed from the system`))
